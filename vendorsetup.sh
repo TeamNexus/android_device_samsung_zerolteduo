@@ -16,5 +16,6 @@
 
 add_lunch_combo aokp_zeroltexx-userdebug
 add_lunch_combo aosp_zeroltexx-userdebug
+add_lunch_combo gzosp_zeroltexx-userdebug
 add_lunch_combo lineage_zeroltexx-userdebug
 add_lunch_combo omni_zeroltexx-userdebug
