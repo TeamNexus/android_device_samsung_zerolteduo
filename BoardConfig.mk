@@ -24,10 +24,10 @@
 include device/samsung/zero-common/BoardConfigCommon.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := zeroltexx,zerolte
+TARGET_OTA_ASSERT_DEVICE := zerolteduo
 
 # Include path
-TARGET_SPECIFIC_HEADER_PATH += device/samsung/zeroltexx/include
+TARGET_SPECIFIC_HEADER_PATH += device/samsung/zerolteduo/include
 
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_zeroltexx_defconfig

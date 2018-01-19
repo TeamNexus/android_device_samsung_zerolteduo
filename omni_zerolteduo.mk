@@ -1,5 +1,5 @@
 # Initialise device config
-$(call inherit-product, device/samsung/zeroltexx/full_zeroltexx.mk)
+$(call inherit-product, device/samsung/zerolteduo/full_zerolteduo.mk)
 
 TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
@@ -11,8 +11,8 @@ $(call inherit-product, vendor/omni/config/gsm.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME="zeroltexx" \
+    PRODUCT_NAME="zerolteduo" \
     TARGET_DEVICE="zerolte"
 
-PRODUCT_NAME :=omni_zeroltexx
-PRODUCT_DEVICE := zeroltexx
+PRODUCT_NAME :=omni_zerolteduo
+PRODUCT_DEVICE := zerolteduo

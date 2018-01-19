@@ -14,26 +14,26 @@
 
 #
 # This file is the build configuration for a full Android
-# build for zeroltexx hardware. This cleanly combines a set of
+# build for zerolteduo hardware. This cleanly combines a set of
 # device-specific aspects (drivers) with a device-agnostic
 # product configuration (apps). Except for a few implementation
 # details, it only fundamentally contains two inherit-product
-# lines, full and zeroltexx, hence its name.
+# lines, full and zerolteduo, hence its name.
 #
 
 PRODUCT_RUNTIMES := runtime_libart_default
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, device/samsung/zeroltexx/device.mk)
+$(call inherit-product, device/samsung/zerolteduo/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := zeroltexx
+PRODUCT_NAME := zerolteduo
 PRODUCT_DEVICE := zerolte
 PRODUCT_BRAND := Samsung
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_MODEL := SM-G925F
+PRODUCT_MODEL := SM-G925FD
 
 # Include overriding makefile from common device tree
 include device/samsung/zero-common/zero-common-override.mk

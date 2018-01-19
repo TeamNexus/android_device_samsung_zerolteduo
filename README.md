@@ -1,4 +1,4 @@
-# Device Tree for the Samsung Galaxy S6 Edge International/India (SM-G925F/I)
+# Device Tree for the Samsung Galaxy S6 Edge International Dual-SIM (SM-G925FD)
 
 -> Work In Progress. <-
 

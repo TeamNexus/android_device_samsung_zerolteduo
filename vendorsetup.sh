@@ -14,9 +14,9 @@
 # limitations under the License.
 #
 
-add_lunch_combo aokp_zeroltexx-userdebug
-add_lunch_combo aosp_zeroltexx-userdebug
-add_lunch_combo gzosp_zeroltexx-userdebug
-add_lunch_combo lineage_zeroltexx-userdebug
-add_lunch_combo nexus_zeroltexx-userdebug
-add_lunch_combo omni_zeroltexx-userdebug
+add_lunch_combo aokp_zerolteduo-userdebug
+add_lunch_combo aosp_zerolteduo-userdebug
+add_lunch_combo gzosp_zerolteduo-userdebug
+add_lunch_combo lineage_zerolteduo-userdebug
+add_lunch_combo nexus_zerolteduo-userdebug
+add_lunch_combo omni_zerolteduo-userdebug
