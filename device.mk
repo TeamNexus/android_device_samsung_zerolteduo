@@ -19,5 +19,8 @@ LOCAL_PATH := device/samsung/zerolteduo
 ## device overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
+# set variables required in zero-common
+BOARD_HAS_DUAL_SIM := true
+
 # Inherit from zero-common
 $(call inherit-product, device/samsung/zero-common/zero-common.mk)

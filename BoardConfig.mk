@@ -20,6 +20,9 @@
 # definition file).
 #
 
+# set variables required in zero-common
+BOARD_HAS_DUAL_SIM := true
+
 # inherit from zero-common
 include device/samsung/zero-common/BoardConfigCommon.mk
 
@@ -37,4 +40,3 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3879731200
 
 # Radio
 BOARD_MODEM_TYPE := ss333
-BOARD_HAS_DUAL_SIM := true
