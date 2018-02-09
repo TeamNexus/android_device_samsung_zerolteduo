@@ -20,3 +20,4 @@ add_lunch_combo gzosp_zerolteduo-userdebug
 add_lunch_combo lineage_zerolteduo-userdebug
 add_lunch_combo nexus_zerolteduo-userdebug
 add_lunch_combo omni_zerolteduo-userdebug
+add_lunch_combo rr_zerolteduo-userdebug
