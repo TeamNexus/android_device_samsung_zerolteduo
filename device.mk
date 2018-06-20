@@ -25,8 +25,5 @@ BOARD_HAS_DUAL_SIM := true
 # Inherit model-specific blobs
 $(call inherit-product, vendor/samsung/zero-duo/zero-duo-vendor.mk)
 
-# Inherit semi-common blobs
-$(call inherit-product, vendor/samsung/zero-non-spr/zero-non-spr-vendor.mk)
-
 # Inherit from zero-common
 $(call inherit-product, device/samsung/zero-common/zero-common.mk)
