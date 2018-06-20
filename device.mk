@@ -22,8 +22,5 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 # set variables required in zero-common
 BOARD_HAS_DUAL_SIM := true
 
-# Inherit model-specific blobs
-$(call inherit-product, vendor/samsung/zero-duo/zero-duo-vendor.mk)
-
 # Inherit from zero-common
 $(call inherit-product, device/samsung/zero-common/zero-common.mk)
